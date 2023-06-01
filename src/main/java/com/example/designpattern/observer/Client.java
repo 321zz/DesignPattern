@@ -1,5 +1,7 @@
 package main.java.com.example.designpattern.observer;
 
+import java.util.Observable;
+
 /**
  * @author 储晓波
  * @date 2023/5/30 10:05
@@ -27,5 +29,6 @@ public class Client {
 
         // 某成员遭到攻击
         player1.beAttacked(acc);
+
     }
 }
