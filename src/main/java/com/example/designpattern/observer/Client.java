@@ -29,6 +29,5 @@ public class Client {
 
         // 某成员遭到攻击
         player1.beAttacked(acc);
-
     }
 }
