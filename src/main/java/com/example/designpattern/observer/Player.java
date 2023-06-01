@@ -32,5 +32,6 @@ public class Player implements Observer{
     public void beAttacked(AllyControlCenter allyControlCenter) {
         System.out.println(name + "被攻击！");
         allyControlCenter.notifyObserver(name);
+        System.out.println("111");
     }
 }
